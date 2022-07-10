@@ -93,10 +93,15 @@ h2{
 /* Testimonials */
 
 #testimonials{
-    padding: 15% 15%;
+    padding-bottom: 3rem;
     text-align: center;
     background-color: #ff4c67cb;
     color: rgb(255, 240, 249);
+}
+
+.carousel-item{
+    padding: 10% 15%;
+    padding-bottom: 30px;
 }
 
 .carousel-inner{
@@ -107,4 +112,15 @@ h2{
     width: 20%;
     border-radius: 20%;
     margin-right: 1.5rem;
+}
+
+#press{
+    background-color:#ff4c67cb ;
+    text-align: center;
+    padding-bottom: 3rem;
+    
+}
+
+.p-img{
+    width: 15%;
 }
