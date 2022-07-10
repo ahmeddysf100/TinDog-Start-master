@@ -123,4 +123,17 @@ h2{
 
 .p-img{
     width: 15%;
+
+}
+
+/* pricing */
+
+#pricing{
+    text-align: center;
+    padding: 7% 10%;
+}
+
+.col-pad{
+    padding: 3% 5%;
+    
 }
