@@ -137,3 +137,23 @@ h2{
     padding: 3% 5%;
     
 }
+
+/* cta */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7%;
+}
+
+.b-c{
+    margin:0 1.5rem ;
+    margin-top:3rem ;
+   
+}
+
+/* footer */
+
+#footer{
+   text-align: center;
+}
