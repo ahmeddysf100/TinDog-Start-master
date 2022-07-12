@@ -1,34 +1,37 @@
-.body{
-    font-family: "Montserrat" ;
+.body {
+    font-family: "Montserrat";
     font-weight: 900;
 }
 
-#title{
-    background-color:#ff4c68;
+/* title */
+
+
+#title {
+    background-color: #ff4c68;
     font-family: 'Montserrat';
     font-family: 'Ubuntu';
-    color:white;
-   
+    color: white;
+
 }
 
-.g{
+.g {
     padding: 3% 15%;
     padding-bottom: 10%;
-    
+
 }
 
-.gg{
+.gg {
     padding-left: 0;
 }
 
-.h1{  
+.h1 {
     font-family: 'Montserrat';
     font-size: 3rem;
     line-height: 1.5;
     font-weight: 900;
 }
 
-h2{
+h2 {
     font-family: 'montserrat';
     font-weight: bold;
     font-size: 3rem;
@@ -37,144 +40,158 @@ h2{
 
 /* nav-bar */
 
-.navbar-brand{
+.navbar-brand {
     font-family: "ubuntu";
     font-size: 2.5rem;
     font-weight: bold;
     padding-bottom: 4.5rem;
 }
 
-.nav-item{
+.nav-item {
     padding: 0 18px;
 }
 
-.nav-link{
+.nav-link {
     font-size: 20px;
     font-family: "montserrat";
-    font-weight:400;
+    font-weight: 400;
 }
 
 /* download button */
 
-.ggg{
-    margin:5% 3% 5% 0 ;
+.ggg {
+    margin: 5% 3% 5% 0;
 }
 
 
 
-.image-dog{
-    transform:rotate(25deg);
+.image-dog {
+    transform: rotate(25deg);
     width: 20%;
     position: absolute;
     z-index: 0;
     left: 60%;
-    
+
 }
+
+
+
 
 /* fuetures */
 
-.fa-5x{
+.fa-5x {
     padding-bottom: 10px;
     color: #ff4c67cb;
-    
+
 }
 
-.fa-5x:hover{
+.fa-5x:hover {
     color: #ff4c68;
 }
 
-.h3-features{
+.h3-features {
     font-family: "montserrat";
-    font-weight:bold;
+    font-weight: bold;
 }
 
-#features{
+#features {
     text-align: center;
     padding: 7% 20%;
     position: relative;
     z-index: 0;
-    background-color:white;
-    
+    background-color: white;
+
 }
+
 /* مهم كلش تراجع شلون خليت صوره الجلب جووه قسم الفيجر */
-.p-11{
+.p-11 {
     color: rgb(88, 91, 93);
 }
 
 /* Testimonials */
 
-#testimonials{
+#testimonials {
     padding-bottom: 3rem;
     text-align: center;
     background-color: #ff4c67cb;
     color: rgb(255, 240, 249);
 }
 
-.carousel-item{
+.carousel-item {
     padding: 10% 15%;
     padding-bottom: 30px;
 }
 
-.carousel-inner{
+.carousel-inner {
     padding-bottom: 3rem;
 }
 
-.carousel-img{
+.carousel-img {
     width: 20%;
     border-radius: 20%;
     margin-right: 1.5rem;
 }
 
-#press{
-    background-color:#ff4c67cb ;
+#press {
+    background-color: #ff4c67cb;
     text-align: center;
     padding-bottom: 3rem;
-    
+
 }
 
-.p-img{
+.p-img {
     width: 15%;
 
 }
 
 /* pricing */
 
-#pricing{
+#pricing {
     text-align: center;
     padding: 7% 10%;
 }
 
-.col-pad{
+.col-pad {
     padding: 3% 5%;
-    
-}
 
+}
 
 
 
 /* cta */
 
-#cta{
+#cta {
     background-color: #ff4c68;
     text-align: center;
     padding: 7%;
 }
 
-.b-c{
-    margin:0 1.5rem ;
-    margin-top:3rem ;
-   
+.b-c {
+    margin: 0 1.5rem;
+    margin-top: 3rem;
+
 }
 
 /* footer */
 
-#footer{
-   text-align: center;
-   line-height: 3;
-   padding: 5% ;
+#footer {
+    text-align: center;
+    line-height: 3;
+    padding: 5%;
 }
 
-.ahmed-logo{
+.ahmed-logo {
     border-radius: 15%;
-    
+
+}
+
+/* @media */
+
+@media(min-width:1024) {
+    .image-dog {
+        position: static;
+        transform: rotate(0);
+
+    }
+
 }
