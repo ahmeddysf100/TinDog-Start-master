@@ -187,7 +187,7 @@ h2 {
 
 /* @media */
 
-@media screen and (max-width:1024) {
+@media (max-width:1024) {
     .image-dog {
         position: static;
         transform: rotate(0);
