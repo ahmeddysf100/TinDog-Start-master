@@ -191,7 +191,14 @@ h2 {
         position: static;
         transform: rotate(0);
         width: 45%;
+        
+    }
+    .h1{
+        font-size: 2rem;
+    }
 
+    .h2-carousel{
+        font-size: 1.5rem;
     }
 
 }
