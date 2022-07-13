@@ -1,6 +1,7 @@
 .body {
     font-family: "Montserrat";
     font-weight: 900;
+    text-align: center;
 }
 
 /* title */
@@ -11,7 +12,7 @@
     font-family: 'Montserrat';
     font-family: 'Ubuntu';
     color: white;
-
+    text-align: left;
 }
 
 .g {
@@ -95,7 +96,6 @@ h2 {
 }
 
 #features {
-    text-align: center;
     padding: 7% 20%;
     position: relative;
     z-index: 0;
@@ -112,7 +112,6 @@ h2 {
 
 #testimonials {
     padding-bottom: 3rem;
-    text-align: center;
     background-color: #ff4c67cb;
     color: rgb(255, 240, 249);
 }
@@ -134,7 +133,6 @@ h2 {
 
 #press {
     background-color: #ff4c67cb;
-    text-align: center;
     padding-bottom: 3rem;
 
 }
@@ -147,7 +145,6 @@ h2 {
 /* pricing */
 
 #pricing {
-    text-align: center;
     padding: 7% 10%;
 }
 
@@ -162,7 +159,6 @@ h2 {
 
 #cta {
     background-color: #ff4c68;
-    text-align: center;
     padding: 7%;
 }
 
@@ -175,7 +171,6 @@ h2 {
 /* footer */
 
 #footer {
-    text-align: center;
     line-height: 3;
     padding: 5%;
 }
@@ -187,10 +182,15 @@ h2 {
 
 /* @media */
 
-@media (max-width:1024) {
+@media (max-width:786px) {
+    #title{
+        text-align: center;
+    }
+
     .image-dog {
         position: static;
         transform: rotate(0);
+        width: 45%;
 
     }
 
